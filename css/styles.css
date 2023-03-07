@@ -9,14 +9,20 @@
 --btn-text-color-active: #FFFFFF;
 --btn-footer-color-active: #31D0AA;
 }
-.container {
+/* .container {
         width: 1158px;
         margin-left: auto;
         margin-right: auto;
         padding-left: 15px;
         padding-right: 15px;
 
+} */
+
+.container {
+        padding-left: 16px;
+        padding-right: 16px;        
 }
+
 h1,
 h2,
 h3,
@@ -64,7 +70,7 @@ body {
 }
 
 /* ---------------------HEADER-------------------- */
-.header {
+/* .header {
         padding-top: 24px;
         padding-bottom: 24px;
         border-bottom: 1px solid #E7E9FC;
@@ -102,6 +108,7 @@ align-items: center;
         align-items: center;
 
 }
+
 
 .header-list {
         display: flex;
@@ -180,7 +187,7 @@ color: var(--btn-bg-color-active);
 .contact-adress-link:focus {
 color: var(--btn-bg-color-active);
 
-}
+} */
 /* -------------------------website list-------------------- */
 
 .main-section {

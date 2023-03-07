@@ -11,6 +11,11 @@
         rel="stylesheet">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css">
     <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/mobile.css">
+    <link rel="stylesheet" href="./css/tablet.css">
+    <link rel="stylesheet" href="./css/desktop.css">
+
+
 </head>
 <body>
         <header class="header">
@@ -29,6 +34,11 @@
                         </li>
                     </ul>
                 </nav>
+                <buton type="buton" class="mobile-menu-open">
+                    <svg class="mobile-menu-open-icon" width="32" height="22">
+                        <use href="./images/sprite.svg#icon-burger"></use>
+                    </svg>
+                </buton>
         
                 <address class="adress">
                     <ul class="header-list-adress list">
@@ -41,21 +51,35 @@
                     </ul>
                 </address>
             </div>
-        
+        <div class="mobile-menu">
+            <div class="container mobile-menu-container">
+                <button class="mobile-menu-close-btn">
+                    <svg class="mobile-menu-close-icon" width="8" height="8">
+                        <use href="./images/sprite.svg#icon-close-modal"></use>
+                    </svg>
+                </button>
+                <ul>
+                    <li><a href="">Studio</a></li>
+                    <li><a href="">Portfolio</a></li>
+                    <li><a href="">Contacts</a></li>
+                </ul>
+            </div>
+            
+        </div>
         </header>
 
     <!-- Hero -->
     <!------------------------------Section1------------------->
     <main>
-        <section class="hero">
+        <!-- <section class="hero">
             <div class="container">
                 <h1 class="hero-title">Effective Solutions for Your Business</h1>
                 <button class="hero-button" type="button" data-modal-open>Order Service</button>
             </div>
-        </section>
+        </section> -->
 
         <!-----------------------------Section2-------------------->
-        <section class="about section">
+        <!-- <section class="about section">
             <div class="container">
                 <h2 class=" features visually-hidden">features</h2>
                 <ul class="features-list list">
@@ -101,10 +125,10 @@
                     </li>
                 </ul>
             </div>
-        </section>
+        </section> -->
 
         <!----------------------------- Section            3 ------------------>
-        <section class="development section">
+        <!-- <section class="development section">
             <div class="container">
                 <h2 class="development-title">What are we doing</h2>
                 <ul class="development-list list">
@@ -120,10 +144,10 @@
                         </ul>
 
             </div>
-        </section>
+        </section> -->
 
         <!------------------------------------- Section        4 ------------------------->
-        <section class="team section">
+        <!-- <section class="team section">
             <div class="container">
                 <h2 class="team-title">Our Team</h2>
                 <ul class="team-title-list list">
@@ -282,9 +306,9 @@
                 </ul>
             </div>
 
-        </section>
+        </section> -->
 <!---------------------------------------- SECTION    5 ------------------------------------------>
-        <section class="customers section">
+        <!-- <section class="customers section">
             <div class="container">
                 <h2 class="customers-title">Customers</h2>
                 <ul class="customers-list list">
@@ -332,10 +356,10 @@
                     </li>
                 </ul>
             </div>
-        </section>
+        </section> -->
 
     </main>
-    <footer class="footer">
+    <!-- <footer class="footer">
         <div class="container footer-position">
             <div class="footer-position-1">
                 <a class="navi-logo-footer link" href="./index.html"><span class="navi-logo-2">Web</span>Studio</a>
@@ -390,8 +414,8 @@
             </div>
 
         </div>
-    </footer>
-    <div class="backdrop is-hidden" data-modal>
+    </footer> -->
+    <!-- <div class="backdrop is-hidden" data-modal>
         <div class="modal">
             <button type="button"  class="modal-close-btn" data-modal-close>
                 <svg class="modal-close-btn-icon" width="8" height="8">
@@ -441,7 +465,7 @@
             </form>
         </div>
 
-    </div>
-    <script src="./js/modal.js"></script>
+    </div> -->
+    <!-- <script src="./js/modal.js"></script> -->
 </body>
 </html>
