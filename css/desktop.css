@@ -126,11 +126,54 @@ text-align: center;
     padding-top: 120px;
     padding-bottom: 120px;
 }
-
-.team-title-list {
+@media screen and (min-width: 1200px) {
+    .team-title-list {
         display: flex;
-            flex-wrap: wrap;
-            column-gap: 24px;}
+        flex-wrap: nowrap;
+        column-gap: 24px;
+        justify-content: center;
+    }
+}
+@media screen and (min-width: 1200px) {
+    .team-containt-wrapper {
+        padding-top: 32px;
+        padding-bottom: 32px;
+        text-align: center;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+}
+
+
+
+
+
+
+/* !!!!!!!!!!!!!!     FOOTER      !!!!!!!!!!!!!! */
+.footer {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.footer .container {
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.footer-position {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.footer-position-up {
+    gap: 120px;
+}
+
+
+
+
+
 
 
 
@@ -140,4 +183,3 @@ text-align: center;
 }
 
 
-}
