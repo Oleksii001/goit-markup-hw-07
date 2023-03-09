@@ -49,7 +49,7 @@
         height: 4px;
         width: 100%;
         border-radius: 2px;
-        bottom: -24px;
+        bottom: -18px;
         background-color: currentColor;
     }
 
@@ -65,8 +65,8 @@
 
         font-style: normal;
         font-weight: 400;
-        font-size: 16px;
-        line-height: 1.5;
+        font-size: 12px;
+        line-height: 1.16;
         letter-spacing: 0.02em;
         color: var(--second-text-color);
         transition-property: color;
@@ -130,6 +130,10 @@
 .hero-button:focus {
     background-color: var(--btn-bg-color-active);
 }
+.modal {
+    height: 586px;
+    width: 408px;
+}
 
 /* !!!!!!!!!!!!!!!!!!!!!!!!       FEATURES       !!!!!!!!!!!!!!!!!! */
 
@@ -148,7 +152,7 @@
 
 
 .team {
-    padding-bottom: 104px;
+    padding-bottom: 96px;
 }
 
 .team-title-list {
