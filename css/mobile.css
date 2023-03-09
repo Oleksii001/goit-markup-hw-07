@@ -54,7 +54,7 @@
     margin-right: auto;
     background-image: linear-gradient(to right, rgba(46, 47, 66, 0.7),
             rgba(46, 47, 66, 0.7)),
-        url('../images/people-office.jpg');
+        url('../images/Dark-mobile-bg.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -730,4 +730,15 @@
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
+}
+
+
+@media screen and (min-device-pixel-ratio: 2) and (max-width: 767px),
+screen and (min-resolution: 192dpi) and (max-width: 767px),
+screen and (min-resolution: 2dppx) and (max-width: 767px) {
+    .hero {
+        background-image: linear-gradient(to right, rgba(46, 47, 66, 0.7),
+            rgba(46, 47, 66, 0.7)),
+            url('../images/Dark-mobile-bg@2x.jpg');
+    }
 }
