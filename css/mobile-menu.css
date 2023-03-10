@@ -42,9 +42,8 @@
         fill: currentColor;
 
     }
-    .current {
-    color: var(--btn-text-color);
-    }
+    .mobile-site-list .mobile-current {
+        color: var(--btn-text-color);    }
     .mobile-menu-close-btn:hover,
     .mobile-menu-close-btn:focus {
 
