@@ -87,18 +87,20 @@
     /* !!!!!!!!!!!!!!!!!!!!!!     HERO        !!!!!!!!!!!!!!!!!!!!!!! */
 
     .hero {
-        padding-top: 188px;
-        padding-bottom: 188px;
+        padding-top: 112px;
+        padding-bottom: 112px;
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
             url(../images/Dark-tablet-bg.jpg);
+        max-width: 768px;
+        height: 436px;
     }
 
 .hero-title {
     font-size: 56px;
     line-height: 1.07;
     color: var(--btn-text-color-active);
-    margin-bottom: 40px;
-    width: 496px;
+    margin-bottom: 36px;
+    max-width: 496px;
 }
 .hero-button {
     padding-top: 16px;
@@ -141,12 +143,16 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    column-gap: 24px;
+    gap: 72px 24px;
 }
 .features-list-item {
     width: calc((100% - 24px) / 2);
     margin-bottom: 0;
 }
+.about-title {
+    text-align: left;
+}
+
 
 /* !!!!!!!!!!!!!!!!!!!!!         TEAM         !!!!!!!!!!!!!!!!!!!!!!! */
 
@@ -154,6 +160,15 @@
 .team {
     padding-bottom: 96px;
 }
+
+@media screen and (min-width: 768px) {
+    .features-list .features-list-item{
+        margin-bottom: 0;
+    }
+}
+
+
+
 
 .team-title-list {
         display: flex;
@@ -190,6 +205,7 @@
     text-align: left;
     margin-left: 0;
     margin-right: 0;
+    
 
 }
 .footer-social {
@@ -203,11 +219,17 @@
     padding-left: 0;
     padding-right: 0;
 }
+
+.footer-position-up {
+
+}
+
 .footer-position-up {
     display: flex;
     justify-content: flex-start;
     gap: 24px;
 }
+
 
 .footer-subscribe{
 }
@@ -226,7 +248,18 @@ gap: 24px;
 }
 
 
+/* !!!!!!!!!!!!!!!     MODAL     !!!!!!!!!!!!!!!!! */
+
+.modal {
+height: 586px;
+width: 408px;
 }
+
+
+
+
+}
+
 
 
 

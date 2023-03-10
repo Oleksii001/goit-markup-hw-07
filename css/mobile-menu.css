@@ -42,7 +42,9 @@
         fill: currentColor;
 
     }
-
+    .current {
+    color: var(--btn-text-color);
+    }
     .mobile-menu-close-btn:hover,
     .mobile-menu-close-btn:focus {
 
@@ -140,8 +142,7 @@
 
     .mobile-site-list-wrap {
         display: flex;
-        max-width: 428px;
-        gap: 56px;
+        gap: 45px;
     }
 
     .mobile-site-list-item {
